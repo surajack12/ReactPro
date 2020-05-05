@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+//import App from './App';
 import * as serviceWorker from './serviceWorker';
+import Comments from "./components/Comments/comments";
+import 'bootstrap/dist/css/bootstrap.css';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
+ <React.StrictMode>
+    <Comments />
   </React.StrictMode>,
   document.getElementById('root')
 );
